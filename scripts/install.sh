@@ -20,10 +20,11 @@ fi
 echo -e "${onyellow}Installing Pedash...$endcolor"
 
 sudo apt-get update
-sudo apt-get install build-essential git python3
+sudo apt-get install build-essential git python3 python3-pip
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys CE7709D068DB5E88
 sudo add-apt-repository "deb https://repo.sovrin.org/sdk/deb bionic master"
 sudo apt-get update
 sudo apt-get install -y libnullpay libvcx
+pip3 install python3-indy python3-wrapper-vcx
 
 echo -e "${ongreen}Pedash installed.$endcolor"
