@@ -1,6 +1,6 @@
 # Pedash
 
-Permissioned Data Sharing: a libvcx demo. Uses DIDs to permission access to data using verifiable credentials.
+Permissioned Data Sharing: a [libvcx](https://github.com/hyperledger/indy-sdk/tree/master/vcx) demo. Uses DIDs to permission access to data using verifiable credentials.
 
 ## Install
 
