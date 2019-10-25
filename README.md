@@ -37,3 +37,6 @@ Terminal 2:
 cd pedash
 python3 prover.py
 ```
+
+Note for WSL users: install docker in the Windows environment, then connect to it in WSL.
+
